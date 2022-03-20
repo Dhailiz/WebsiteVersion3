@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+body h1{
+font-family: 'Archivo Black', sans-serif;
+}
+
+body {
+  background-color: #2B3544;
+  color: #fff;
+  font-family: 'Arial', serif;
+}
+
+a {
+  transition: all .5s ease-in-out;
+}
+
+
+header {
+  padding: 15% 15%;
+  text-align:left;
+}
+
+header h1{
+  font-weight: 300;
+  font-size: 50px;
+}
+
+
+header h1,
+header p {
+  margin: 0;
+}
+header p {
+  color: #D1D5DB;
+}
+
+
+#posts {
+  padding: 0 5%;
+}
+
+#posts h2 {
+  font-family: 'Domine', serif;
+}
+
+
+
+/*** POSTS WRAPPER **/
+.postsWrapper {
+  background-color: #394050;
+  /** padding: 2% 5%; **/
+  border-radius: 25px 25px 0 0;
+}
+
+.postsWrapper nav {
+  padding: 5% 7%;
+  display: flex;
+  align-items: center;
+}
+
+.postsWrapper nav img{ 
+  width: 80px;
+  margin-right: 2.5%;
+}
+
+.postsWrapper nav a {
+  color: #D1D5DB;
+  text-decoration: none;
+  background-color: #212936;
+  border-radius: 25px;
+  padding: 15px;
+  margin-right: 2.5%;
+}
+.postsWrapper nav a:hover {
+  background-color: #D1D5DB;
+  color: #212936;
+}
+
+.postsWrapper h2 {
+  padding: 1% 7%;
+}
+
+
+
+/*** BERICHTE ***/
+#berichte {
+  background-color: #fff;
+  display: flex;
+  padding: 2%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.postBox {
+  color: #555;
+  width: 350px;
+  /*** box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ***/
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+
+.postBox p {
+  margin: 0;
+  line-height: 23px;
+}
+
+.postText {
+  padding: 10% 7% 20% 7%;
+}
+.postText h3 {
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.postText small {
+  color: #ccc;
+}
+.postText a {
+  text-decoration: none;
+  background-color: #212936;
+  color: #fff;
+  padding: 4px;
+}
+.postText a:hover {
+  text-decoration: none;
+  background-color: #D1D5DB;
+  color: #212936;
+  padding: 4px;
+}
+
+.postImage {
+  background-image: url('https://picsum.photos/seed/picsum/200/300');
+  width: auto;
+  height: 180px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+
+
+.contentBox {
+  background-color: #F9FAFB;
+  padding: 5%;
+  color: #000;
+}
+.contentBox{
+  padding: 7%;
+}
+
+#niicee.contentBox {
+  background-color: #F3F4F6;
+}
+
+
+
+footer i{
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+
+
+
+
