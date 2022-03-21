@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width">
     <title>Dhaili</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://kit.fontawesome.com/f16a60133e.js" crossorigin="anonymous"></script>
   </head>
   <body>
 
     <header>
       <h1>Schaffe ich in 8 Wochen Programierer zu werden </h1>
       <p>Hier kommt noch etwas schalues rein...</p>
+      <video scr="./img/emoji.mp4" type="video/mp4" autoplay muted></video>
     </header>
 
   <main>
@@ -25,17 +25,18 @@
       <div class="postsWrapper">
         <nav>
           <img src="./assets/img/zaka-logo.png">
-          <a href="#uebermich">Woche 1</a>
-          <a href="#niicee">Woche 2</a>
-          <a href="#posts">Woche 3</a>
-          <a href="#fazit">Woche 4</a>
-          <a href="#fazit">Woche 5</a>
-          <a href="#fazit">Woche 6</a>
-          <a href="#fazit">Woche 7</a>
-          <a href="#fazit">Woche 8</a>
+          <button id="defaultOpen" class="tablinks" onclick="tabOpener(event, 'Tab1')">Woche 1</button>
+          <button class="tablinks" onclick="tabOpener(event, 'Tab2')">Woche 2</button>
+          <button class="tablinks" onclick="tabOpener(event, 'Tab3')">Woche 3</button>
+          <button class="tablinks" onclick="tabOpener(event, 'Tab4')">Woche 4</button>
+          <button class="tablinks" onclick="tabOpener(event, 'Tab5')">Woche 5</button>
+          <button class="tablinks" onclick="tabOpener(event, 'Tab6')">Woche 6</button>
+          <button class="tablinks" onclick="tabOpener(event, 'Tab7')">Woche 7</button>
+          <button class="tablinks" onclick="tabOpener(event, 'Tab8')">Woche 8</button>
         </nav>
         <h2>Meine Berichte</h2>
         <div id="berichte">
+        <div id="Tab1" class="tabcontent">
           <article class="postBox">
             <div class="postImage"></div>
             <div class="postText">
@@ -63,6 +64,8 @@ Auf Teams ein Kanbanboard erstellt der dazu dient meine neuen Aufgaben anzusehen
               </p>
             </div>
           </article>
+          </div>
+          <div id="Tab2" class="tabcontent">
           <article class="postBox">
             <div class="postImage"></div>
             <div class="postText">
@@ -87,6 +90,8 @@ Mit mehreren Teilnehmern und 2 Entwicklern nochmal die Basics durchgegangen und 
               </p>
             </div>
           </article>
+          </div>
+          <div id="Tab3" class="tabcontent">
           <article class="postBox">
             <div class="postImage"></div>
             <div class="postText">
@@ -113,6 +118,8 @@ Heute mal eine Kurze gehabt und gemeinsam angeschaut wie weit ich gekommen bin u
               </p>
             </div>
           </article>
+          </div>
+          <div id="Tab4" class="tabcontent">
           <article class="postBox">
             <div class="postImage"></div>
             <div class="postText">
@@ -137,6 +144,8 @@ Zusammen Skizze erstellt und Aufgabe bis zu dem nächsten Team ein Produkt zu er
               </p>
             </div>
           </article>
+          </div>
+          <div id="Tab5" class="tabcontent">
           <article class="postBox">
             <div class="postImage"></div>
             <div class="postText">
@@ -162,6 +171,8 @@ Website Änderung besprochen und mein Produkt gemeinsam angeschaut und Fehler ve
               </p>
             </div>
           </article>
+          </div>
+          <div id="Tab6" class="tabcontent"></div>
           <article class="postBox">
             <div class="postImage"></div>
             <div class="postText">
@@ -173,6 +184,7 @@ Letzten Hindernisse gelöst und CSS layout durchgemacht um bei dem nächsten Tea
               </p>
             </div>
           </article>
+          </div>
         </div>
       </div>
     </section>
@@ -190,4 +202,7 @@ Letzten Hindernisse gelöst und CSS layout durchgemacht um bei dem nächsten Tea
 
     
   </body>
+
+
+  <script src="/script.js" crossorigin="anonymous"></script>
 </html>

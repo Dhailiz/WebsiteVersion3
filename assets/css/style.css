@@ -70,7 +70,7 @@ header p {
   margin-right: 2.5%;
 }
 
-.postsWrapper nav a {
+.postsWrapper nav button {
   color: #D1D5DB;
   text-decoration: none;
   background-color: #212936;
@@ -78,7 +78,7 @@ header p {
   padding: 15px;
   margin-right: 2.5%;
 }
-.postsWrapper nav a:hover {
+.postsWrapper nav button:hover {
   background-color: #D1D5DB;
   color: #212936;
 }
@@ -125,7 +125,7 @@ header p {
 .postText small {
   color: #ccc;
 }
-.postText a {
+.postText a{
   text-decoration: none;
   background-color: #212936;
   color: #fff;
