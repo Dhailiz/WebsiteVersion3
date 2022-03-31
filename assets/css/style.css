@@ -109,8 +109,8 @@ header p {
 
 .postBox {
   color: #555;
-  width: 350px;
-  /*** box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ***/
+  /*width: 350px;*/
+  flex: 1;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
