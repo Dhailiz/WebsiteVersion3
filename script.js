@@ -18,7 +18,7 @@ function tabOpener(evt, kat) {
 
 
 
-
+/*
 //Modal
 // Get the button that opens the modal
 var btn = document.querySelectorAll("button.modal-button");
@@ -54,4 +54,23 @@ window.onclick = function(event) {
       if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
      }
     }
+}
+*/
+
+
+/*** MODAL NEU */
+var modalBtns = document.getElementsByClassName("modalBtn");
+for (var i = 0; i < modalBtns.length; i++) {
+  modalBtns[i].addEventListener("click", function() {
+    var modalBox1 = this.nextElementSibling;
+    modalBox1.classList.add('modalActive');
+  });
+}
+
+var closeBtn = document.getElementsByClassName("close");
+for (var i = 0; i < closeBtn.length; i++) {
+  closeBtn[i].addEventListener("click", function() {
+    var modalBox = this.parentNode.parentNode;
+    modalBox.classList.remove('modalActive');
+  });
 }
