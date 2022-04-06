@@ -164,8 +164,9 @@ header p {
 .postImage {
   background-image: url('https://picsum.photos/seed/picsum/200/300');
   width: auto;
-  height: 180px;
+  height: 300px;
   background-size: cover;
+  background-position:center; 
   border-radius: 10px 10px 0 0;
 }
 
@@ -195,6 +196,15 @@ text-decoration: none;
 }
 
 
+
+
+
+
+/*Posts Bilder*/ 
+
+.w1t1{
+  background-image: url(/assets/img/htmlbild.jpg);
+}
 
 
 
